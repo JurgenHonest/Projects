@@ -3,7 +3,7 @@ let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 
 scrollContainer.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
+    //evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
     scrollContainer.style.scrollBehavior = "auto";
 });
