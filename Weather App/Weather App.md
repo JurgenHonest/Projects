@@ -14,7 +14,7 @@ Error handling is done for invalid city names, where an error message is shown i
 3. CSS Reference:
 link rel="stylesheet" href="style.css": Links to an external CSS file for styling.
   
-JavaScript:
+## JavaScript:
 The script uses fetch to retrieve weather data from the OpenWeatherMap API using the city name.
 It dynamically updates the webpage with the weather information based on the city searched.
 Weather icons change based on weather conditions (cloudy, clear, rain, etc.).
