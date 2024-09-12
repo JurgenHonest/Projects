@@ -26,4 +26,5 @@ Error handling for network issues: You might want to handle cases where the netw
 Temperature Display: Although the script fetches the weather, it doesn't display the temperature in this version.
 Add: document.querySelector(".temp").innerHTML = data.main.temp + "°C";
 Responsive Design: Ensure that weatherApp.css includes responsive styling for better display on various devices.
+<br>
 
