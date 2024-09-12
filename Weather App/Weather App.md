@@ -21,10 +21,17 @@ Weather icons change based on weather conditions (cloudy, clear, rain, etc.).
 1. Key Functions:
 checkWeather(city): Fetches the weather data for the input city and updates the UI accordingly. If the city is invalid, it shows an error message.
 The app handles five weather conditions: Clouds, Clear, Drizzle, Mist, and Rain.
-2. Improvements/Suggestions:
-Error handling for network issues: You might want to handle cases where the network request fails (e.g., no internet connection).
-Temperature Display: Although the script fetches the weather, it doesn't display the temperature in this version.
-Add: document.querySelector(".temp").innerHTML = data.main.temp + "°C";
-Responsive Design: Ensure that weatherApp.css includes responsive styling for better display on various devices.
+
+## CSS:
+
+1.Responsive Design:
+The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.
+Flexbox is used effectively in .search, .details, and .col for aligning items, which should ensure a flexible layout.
+2. Gradients and Color Scheme:
+The background and card gradients add a nice visual appeal. The combination of dark blue to red for the body and the blue-green gradient for the card will give a modern and vibrant look.
+3. Typography:
+Font sizes for temperature (h1) and city name (h2) are large, which makes them stand out. The 27px font size for .humidity and .wind also seems appropriate for readability.
+4. Weather Icon Size:
+The weather icon is given a width of 150px, which should look good in the overall layout.
 <br>
 
