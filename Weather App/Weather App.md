@@ -24,16 +24,16 @@ The app handles five weather conditions: Clouds, Clear, Drizzle, Mist, and Rain.
 
 ## CSS:
 
-1.Responsive Design:
-The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.
+1.Responsive Design:<br>
+The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.<br>
 Flexbox is used effectively in .search, .details, and .col for aligning items, which should ensure a flexible layout.<br>
-2. Gradients and Color Scheme:
-The background and card gradients add a nice visual appeal.
+2. Gradients and Color Scheme:<br>
+The background and card gradients add a nice visual appeal.<br>
 The combination of dark blue to red for the body and the blue-green gradient for the card will give a modern and vibrant look.<br>
-3. Typography:
+3. Typography:<br>
 Font sizes for temperature (h1) and city name (h2) are large, which makes them stand out.
 The 27px font size for .humidity and .wind also seems appropriate for readability.<br>
-4. Weather Icon Size:
+4. Weather Icon Size:<br>
 The weather icon is given a width of 150px, which should look good in the overall layout.
 <br>
 
