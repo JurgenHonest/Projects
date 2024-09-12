@@ -25,8 +25,9 @@ The app handles five weather conditions: Clouds, Clear, Drizzle, Mist, and Rain.
 ## CSS:
 
 1.Responsive Design:<br>
-The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.<br>
+The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.
 Flexbox is used effectively in .search, .details, and .col for aligning items, which should ensure a flexible layout.<br>
+
 2. Gradients and Color Scheme:<br>
 The background and card gradients add a nice visual appeal.<br>
 The combination of dark blue to red for the body and the blue-green gradient for the card will give a modern and vibrant look.<br>
