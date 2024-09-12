@@ -7,12 +7,12 @@ The structure includes a search box where users can input a city name and get we
 It displays weather information such as the city name, temperature, humidity, and wind speed.
 Error handling is done for invalid city names, where an error message is shown if the city isn't found.
 2. Key Components:
-<input>: The text box where users can enter a city name.
-<button>: Triggers the weather data search.
-<div class="error">: Displays when the user inputs an invalid city name.
-<div class="weather">: Displays weather details such as temperature, city name, humidity, wind speed, and a weather icon based on conditions.
+  a. input: The text box where users can enter a city name.
+  b. button: Triggers the weather data search.
+  c. div class="error": Displays when the user inputs an invalid city name.
+  d. div class="weather": Displays weather details such as temperature, city name, humidity, wind speed, and a weather icon based on conditions.
 3. CSS Reference:
-<link rel="stylesheet" href="weatherApp.css">: Links to an external CSS file for styling (which isn't included here).
+link rel="stylesheet" href="style.css": Links to an external CSS file for styling.
   
 JavaScript:
 The script uses fetch to retrieve weather data from the OpenWeatherMap API using the city name.
