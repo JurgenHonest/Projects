@@ -1,5 +1,6 @@
 # Weather App
 A Weather App allows users to search for the current weather conditions of any city using the OpenWeatherMap API. It provides real-time information such as temperature, humidity, wind speed, and displays weather icons based on conditions (e.g., cloudy, rainy, or clear). 
+https://sumit-weatherapp.netlify.app/
 
 ## This is a basic HTML structure for a weather application using the OpenWeatherMap API
 1. HTML Structure:<br>
@@ -25,7 +26,7 @@ The app handles five weather conditions: Clouds, Clear, Drizzle, Mist, and Rain.
 ## CSS:
 
 1.Responsive Design:<br>
-a. The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.
+a. The card element is constrained to 90% width and a maximum width of 470px, which should look good on most screens.<br>
 b. Flexbox is used effectively in .search, .details, and .col for aligning items, which should ensure a flexible layout.<br>
 2. Gradients and Color Scheme:<br>
 The background and card gradients add a nice visual appeal.<br>
