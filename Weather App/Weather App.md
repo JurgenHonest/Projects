@@ -54,14 +54,14 @@ Code
       <div class="search">
         <input type="text" placeholder="Enter a city name" spellcheck="false" />
         <button>
-          <img src="image.png" alt="Search" />
+          <img src="img/image.png" alt="Search" />
         </button>
       </div>
       <div class="error">
         <p>Invalid city name</p>
       </div>
       <div class="weather">
-        <img src="rain.jpg" class="weather-icon" />
+        <img src="img/rain.jpg" class="weather-icon" />
         <h1 class="temp">22°c</h1>
         <h2 class="city">Pokhara</h2>
         <div class="details">
