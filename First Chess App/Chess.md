@@ -1,10 +1,11 @@
 # Chess App
 https://sumit-chessapp.netlify.app/
+
 1. Global Styles:
 Reset margin and padding for all elements and set box-sizing to border-box.
 Set html and body to full width and height, and hide overflow.
 
-3. Body Styles:
+2. Body Styles:
 Apply a gradient background from purple to blue.
 Set text color to white.
 
