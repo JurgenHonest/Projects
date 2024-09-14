@@ -9,7 +9,7 @@ Set html and body to full width and height, and hide overflow.
 Apply a gradient background from purple to blue.
 Set text color to white.
 
-3 .Root Variables:
+3. Root Variables:
 Define CSS custom properties (variables) for colors.
 
 4. Turn Display:
