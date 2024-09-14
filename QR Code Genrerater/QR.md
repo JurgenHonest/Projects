@@ -1,3 +1,5 @@
+# Simple QR Code Generator
+https://sumit-qrcodegenerator.netlify.app/
 ## 1. HTML Structure
 Page Layout: The HTML structure is designed to provide a user interface where the user can input text or a URL and then generate a QR code based on that input.
 Input Field: Where users type the text or URL that they want to encode into a QR code.
@@ -12,10 +14,10 @@ qrText references the input field where users enter the text or URL.
 a. Check Input:
 The function generateQR() first checks if the input field (qrText) contains any text. This is done using if (qrText.value.length > 0).
 If the input field is not empty, the function proceeds to generate the QR code.
-If the input field is empty, an error class is added to the input field to indicate that something is missing.
+If the input field is empty, an error class is added to the input field to indicate that something is missing.<br>
 b. Set Image Source:
 If there is input, the QR code image source (qrImage.src) is set to a URL from the qrserver.com API. This URL includes the input data as a query parameter, which tells the API what to encode in the QR code.
-The URL https://api.qrserver.com/v1/create-qr-code/?size=150x150&data= is used, where size=150x150 specifies the dimensions of the QR code, and data= is followed by the user's input text.
+The URL "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" is used, where size=150x150 specifies the dimensions of the QR code, and data= is followed by the user's input text.
 c. Display QR Code:
 The imgBox container’s class list is updated by adding the show-img class. This class likely contains CSS rules to make the QR code visible.
 d. Error Handling:
