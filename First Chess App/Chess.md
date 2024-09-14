@@ -1,6 +1,6 @@
 # Chess App
 https://sumit-chessapp.netlify.app/
-
+### The HTML creates the chessboard with 8x8 squares using div elements, each assigned a unique ID based on coordinates. 
 1. Global Styles:
 Reset margin and padding for all elements and set box-sizing to border-box.
 Set html and body to full width and height, and hide overflow.
