@@ -5,7 +5,7 @@ i. Page Layout: The HTML structure is designed to provide a user interface where
 ii. Input Field: Where users type the text or URL that they want to encode into a QR code.<br>
 iii. Button: When clicked, this triggers the QR code generation.<br>
 iv. Image Container: Displays the generated QR code image.
-### 2. JavaScript Logic
+## 2. JavaScript Logic
 i. Element References: JavaScript is used to interact with the HTML elements:
 ii. imgBox references the container for the QR code image.
 iii. qrImage references the actual image element where the QR code will be displayed.
