@@ -1,15 +1,15 @@
 # Simple QR Code Generator
 https://sumit-qrcodegenerator.netlify.app/
 ## 1. HTML Structure
-Page Layout: The HTML structure is designed to provide a user interface where the user can input text or a URL and then generate a QR code based on that input.
-Input Field: Where users type the text or URL that they want to encode into a QR code.
-Button: When clicked, this triggers the QR code generation.
-Image Container: Displays the generated QR code image.
+i. Page Layout: The HTML structure is designed to provide a user interface where the user can input text or a URL and then generate a QR code based on that input.<br>
+ii. Input Field: Where users type the text or URL that they want to encode into a QR code.<br>
+iii. Button: When clicked, this triggers the QR code generation.<br>
+iv. Image Container: Displays the generated QR code image.
 ### 2. JavaScript Logic
-Element References: JavaScript is used to interact with the HTML elements:
-imgBox references the container for the QR code image.
-qrImage references the actual image element where the QR code will be displayed.
-qrText references the input field where users enter the text or URL.
+i. Element References: JavaScript is used to interact with the HTML elements:
+ii. imgBox references the container for the QR code image.
+iii. qrImage references the actual image element where the QR code will be displayed.
+iv. qrText references the input field where users enter the text or URL.
 ### Generate QR Code Function:
 a. Check Input:
 The function generateQR() first checks if the input field (qrText) contains any text. This is done using if (qrText.value.length > 0).
