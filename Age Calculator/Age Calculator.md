@@ -51,6 +51,6 @@ Otherwise, it reduces the month (m3--) and uses the getDaysInMonth function to c
 ### 6.Final Adjustment:
 If m3 < 0, it means the month difference is negative, so it adjusts both the year (y3--) and sets the month difference to 11 (m3 = 11).
 ### 7.Display the Result:
-The calculated age in years, months, and days is displayed in the result paragraph using innerHTML with highlighted values in <span> tags.
+The calculated age in years, months, and days is displayed in the result paragraph using innerHTML with highlighted values in "span" tags.
 ### 8.Helper Function:
 getDaysInMonth: This function returns the number of days in a specific month by creating a new date object for the given year and month, using the 0 day to reference the last day of the previous month.
