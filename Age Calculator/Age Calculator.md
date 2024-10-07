@@ -33,3 +33,24 @@ Has a padding of 15px 30px and changes the cursor to a pointer on hover for bett
 ### 7.Result Section (#result):
 The result text will have a font size of 20px.<br>
 Any span inside the result is highlighted in yellow (#ffff76), similar to the heading style.
+
+## JS Structure:
+### 1.Date Input Restriction:
+userInput.max restricts the date input field to prevent selecting a future date by setting the maximum value to today's date using new Date().toISOString().split("T")[0].
+### 2.Age Calculation (calculateAge function):
+Retrieves the selected date (birthDate) from the input field.<br>
+Extracts the day, month, and year from both the birthdate (d1, m1, y1) and the current date (d2, m2, y2).
+### 3.Year Calculation:
+(y3 = y2 - y1:) Subtracts the birth year from the current year to calculate the initial difference in years.
+### 4.Month Calculation:
+If the current month (m2) is greater than or equal to the birth month (m1), the month difference is calculated as m3 = m2 - m1.
+If the current month is smaller, it adjusts the year (y3--) and calculates the month difference by adding 12 to the current month (m3 = 12 + m2 - m1).
+### 5.Day Calculation:
+If the current day (d2) is greater than or equal to the birth day (d1), the day difference is simply (d3 = d2 - d1).<br>
+Otherwise, it reduces the month (m3--) and uses the getDaysInMonth function to calculate how many days are in the previous month, then adjusts the day difference (d3 = getDaysInMonth(y1, m1) + d2 - d1).
+### 6.Final Adjustment:
+If m3 < 0, it means the month difference is negative, so it adjusts both the year (y3--) and sets the month difference to 11 (m3 = 11).
+### 7.Display the Result:
+The calculated age in years, months, and days is displayed in the result paragraph using innerHTML with highlighted values in <span> tags.
+### 8.Helper Function:
+getDaysInMonth: This function returns the number of days in a specific month by creating a new date object for the given year and month, using the 0 day to reference the last day of the previous month.
