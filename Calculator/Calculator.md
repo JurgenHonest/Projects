@@ -6,41 +6,29 @@ The structure defines a simple calculator interface with buttons for numbers, ba
 ### 1&nbsp;.Body:
 Centered layout using Flexbox .
 ```
-    display: flex;
-    justify-content:center;
-    align-items: center
+  display: flex;
+  justify-content:center;
+  align-items: center
 ```
 Full height with a light gray background.
-Calculator (#calculator):
-
+### 2.&nbsp;Calculator (#calculator):
 Dark background with rounded corners and a max width of 500px.
-Display (#display):
-
+### 3.&nbsp;Display (#display):
 Full width, large text, dark background, white text, no border.
-Keypad (#keys):
-
+### 4.&nbsp;Keypad (#keys):
 Grid layout (4 columns), with 10px spacing between buttons.
-Buttons:
-
+### 5.&nbsp;Buttons:
 Circular, 100x100px, dark gray background, white bold text, pointer cursor.
 Hover and active states lighten the background color.
-Operator Buttons (.operatorbtn):
+### 6.&nbsp;Operator Buttons (.operatorbtn):
 
 Orange background with lighter hover and active states for emphasis.
 ## JS Of Project:
-const display = document.getElementById("display");
-
-function appendToDisplay(input) {
-    display.value += input;
-}
-function clearDisplay() {
-    display.value = "";
-}
-function calculate() {
-    try {
-        display.value = eval(display.value);
-    }
-    catch (error) {
-        display.value = "Error";
-    }
-}
+### 1.&nbspappendToDisplay(input):
+Appends the clicked button’s value (input) to the calculator's display.
+Updates the display value using display.value += input.
+### 2.&nbspclearDisplay():
+Clears the current input by setting the display value to an empty string (display.value = "").
+### 3.&nbspcalculate():
+Uses the eval() function to evaluate the arithmetic expression in the display.
+If the expression is invalid, it catches the error and displays "Error".
