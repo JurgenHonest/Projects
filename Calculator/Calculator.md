@@ -2,3 +2,41 @@
 --
 ## HTML Of Project:
 The structure defines a simple calculator interface with buttons for numbers, basic operators, and functions like clear (C) and calculate (=). It includes an input field to display the user's input and results. JavaScript is used to append values to the display, clear the display, and evaluate the entered expression using the eval() function to compute the result.
+## CSS Of Project:
+Body:
+
+Centered layout using Flexbox (display: flex; justify-content: center; align-items: center).
+Full height with a light gray background.
+Calculator (#calculator):
+
+Dark background with rounded corners and a max width of 500px.
+Display (#display):
+
+Full width, large text, dark background, white text, no border.
+Keypad (#keys):
+
+Grid layout (4 columns), with 10px spacing between buttons.
+Buttons:
+
+Circular, 100x100px, dark gray background, white bold text, pointer cursor.
+Hover and active states lighten the background color.
+Operator Buttons (.operatorbtn):
+
+Orange background with lighter hover and active states for emphasis.
+## JS Of Project:
+const display = document.getElementById("display");
+
+function appendToDisplay(input) {
+    display.value += input;
+}
+function clearDisplay() {
+    display.value = "";
+}
+function calculate() {
+    try {
+        display.value = eval(display.value);
+    }
+    catch (error) {
+        display.value = "Error";
+    }
+}
