@@ -3,9 +3,13 @@
 ## HTML Of Project:
 The structure defines a simple calculator interface with buttons for numbers, basic operators, and functions like clear (C) and calculate (=). It includes an input field to display the user's input and results. JavaScript is used to append values to the display, clear the display, and evaluate the entered expression using the eval() function to compute the result.
 ## CSS Of Project:
-Body:
-
-Centered layout using Flexbox (display: flex; justify-content: center; align-items: center).
+### 1&nbsp;.Body:
+Centered layout using Flexbox .
+```
+    display: flex;
+    justify-content:center;
+    align-items: center
+```
 Full height with a light gray background.
 Calculator (#calculator):
 
