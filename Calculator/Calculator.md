@@ -24,11 +24,11 @@ Hover and active states lighten the background color.
 
 Orange background with lighter hover and active states for emphasis.
 ## JS Of Project:
-### 1.&nbspappendToDisplay(input):
+### 1.&nbsp;appendToDisplay(input):
 Appends the clicked button’s value (input) to the calculator's display.
 Updates the display value using display.value += input.
-### 2.&nbspclearDisplay():
+### 2.&nbsp;clearDisplay():
 Clears the current input by setting the display value to an empty string (display.value = "").
-### 3.&nbspcalculate():
+### 3.&nbsp;calculate():
 Uses the eval() function to evaluate the arithmetic expression in the display.
 If the expression is invalid, it catches the error and displays "Error".
