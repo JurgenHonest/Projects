@@ -2,7 +2,7 @@
 ### 1. API Key & Elements: 
 The code retrieves a user's input from an HTML search form and fetches images from the Unsplash API using the provided access key. Key elements like the search form, search box, and results container are targeted via DOM manipulation.
 ```
-  const accessKey = "??";
+  const accessKey = "ovbndqal8pgwftrruo-qdalcqxyhhazkblw8ur2lntq";
   const searchForm = document.getElementById("search-form");
   const searchBox = document.getElementById("search-box");
   const searchresult = document.getElementById("search-result");
