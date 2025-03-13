@@ -13,10 +13,33 @@ A **modern, sleek, and professional** To-Do List web application that allows use
 
 ---
 
-## Live Demo
-[Here](https://to-do-list-b-v.netlify.app/)
+## 🚀 Live Demo
 
-
-
+🔗 **Try it now:** [Live Demo](https://to-do-list-b-v.netlify.app/)
 ---
+
+## 🛠️ Technologies Used
+- HTML5 – Structure & Layout
+- CSS3 – Styling & Animations
+- JavaScript – Logic & localStorage
+---
+
+## 📌 Project Structure
+```
+/todo-list-app
+│── index.html      # Main HTML file
+│── style.css       # Stylesheet (CSS)
+│── script.js       # JavaScript logic
+│── img/             # Image folder
+|  │── icon.png        #Todo icon
+|  │── unchecked.png   # Unchecked task icon
+|  │── check.png       # Checked task icon
+└── README.md        # Documentation
+```
+---
+ ## .
+
+🎯 Contributing
+- Feel free to fork this repository, make changes, and submit a pull request!
+- I’d love to see your contributions and ideas! 😊🚀
 
