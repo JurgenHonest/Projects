@@ -18,7 +18,6 @@ A responsive weather application built with HTML, CSS, and JavaScript. It allows
 ---
 
 ## 📸 Screenshots:
-![Weather App Screenshot](https://via.placeholder.com/800x400.png?text=Weather+App+Screenshot)
 ![Weather App Screenshot](https://github.com/user-attachments/assets/2d743b63-a52a-45e4-bd5a-9abbd3328a15)
 
 ----
