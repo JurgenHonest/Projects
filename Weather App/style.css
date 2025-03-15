@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #2c3e50, #4ca1af);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 90%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  outline: none;
+  background: #ebfffc;
+  color: #333;
+}
+
+.search input,
+.search button {
+  transition: all 0.3s ease-in-out;
+}
+
+.search input:focus,
+.search button:hover {
+  transform: scale(1.05);
+}
+
+.search button {
+  border: none;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search button:hover {
+  transform: scale(1.1);
+  background: #dff;
+}
+
+.search button img {
+  width: 28px;
+}
+
+.weather-icon {
+  width: 120px;
+  margin-top: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.weather-icon:hover {
+  transform: scale(1.1) rotate(10deg);
+  border-color: #ffeb3b;
+  box-shadow: 0px 0px 15px rgba(255, 235, 59, 0.6);
+}
+
+.weather h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 22px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  display: none;
+  color: rgb(255, 94, 94);
+  margin-top: 10px;
+}
