@@ -2,7 +2,6 @@
 
 A responsive weather application built with HTML, CSS, and JavaScript. It allows users to check the current weather based on their city.
 
-![Weather App](img/weather-app-banner.png)
 
 ## 🚀 Features:
 - Search for weather by city.
