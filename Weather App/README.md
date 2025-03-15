@@ -1,71 +1,55 @@
 # Weather App 🌤️
 
-A responsive weather app that allows users to search for the current weather of any city, providing real-time data including temperature, humidity, and wind speed, along with a dynamic weather icon that changes based on the conditions.
+A responsive weather application built with HTML, CSS, and JavaScript. It allows users to check the current weather based on their city.
 
-## Features
+![Weather App](img/weather-app-banner.png)
 
-- **Search Functionality**: Search for the weather by entering a city name.
-- **Real-time Weather Data**: Displays current temperature, humidity, and wind speed.
-- **Dynamic Weather Icons**: Weather icon changes based on the current weather condition (clear, clouds, rain, snow, etc.).
-- **Responsive Design**: The app is fully responsive, adjusting its layout to fit various screen sizes.
-- **Smooth Transitions**: Weather card and icons have smooth transitions for height, opacity, and hover effects.
-  
-## Screenshots
+## 🚀 Features:
+- Search for weather by city.
+- Display weather details like temperature, humidity, and wind speed.
+- Weather icons to represent different conditions (e.g., sunny, rainy, snowy).
+- Responsive UI.
+----
+## ⚙️ Technologies:
+- HTML
+- CSS (Flexbox, Grid, Transitions)
+- JavaScript (Fetch API)
+- OpenWeatherMap API
+
+---
+
+## 📸 Screenshots:
 ![Weather App Screenshot](https://via.placeholder.com/800x400.png?text=Weather+App+Screenshot)
 ![Weather App Screenshot](https://github.com/user-attachments/assets/2d743b63-a52a-45e4-bd5a-9abbd3328a15)
 
+----
 
 ## Demo
-You can check out the live demo [here](#).
+You can check out the live demo [here](https://weather-app-b-s.netlify.app/).
 
-## Technologies Used
+----
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
-- **OpenWeatherMap API** (for weather data)
-- **Responsive Design** with Flexbox
+## 🧑‍💻 Project Structure:
+```
+weather-app/
+├── index.html                # Main HTML file
+├── style.css                 # Main CSS file for styling the app
+├── script.js                 # JavaScript file for the app logic
+├── img/                      # Directory to store weather icons
+│   ├── sun.gif               # Weather icon for clear weather
+│   ├── cloud.gif             # Weather icon for clouds
+│   ├── drizzle.png           # Weather icon for drizzle
+│   ├── mist.gif              # Weather icon for mist
+│   ├── rain.gif              # Weather icon for rain
+│   └── snow.gif              # Weather icon for snow
+├── README.md                 # Project documentation
+└── LICENSE                   # Project license (MIT or another)
+```
 
-## Setup
-
-To get this project up and running locally on your machine, follow these steps:
-
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, etc.)
-- Internet connection (for API calls)
-
-### Installation
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/weather-app.git
-    ```
-
-2. **Navigate to the project folder**:
-
-    ```bash
-    cd weather-app
-    ```
-
-3. **Open the `index.html` file in your browser**:
-
-    Simply double-click the `index.html` file to open it in your default web browser.
-
-    Alternatively, you can serve the app using a local server:
-
-    ```bash
-    # If you have Python installed
-    python -m http.server
-    ```
-
-    Now, open your browser and go to `http://localhost:8000`.
-
+---
 ### API Key Setup
 
 1. Visit [OpenWeatherMap](https://openweathermap.org/api) to get your **API Key**.
 2. Replace the `apiKey` variable in the `script.js` file with your own key.
 
-   ```javascript
-   const apiKey = "your_api_key_here";
+----
