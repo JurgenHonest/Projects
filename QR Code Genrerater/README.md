@@ -21,9 +21,24 @@ A simple and stylish **QR Code Generator** built with **HTML, CSS, and JavaScrip
 - **CSS3** – Styling & animations  
 - **JavaScript** – Logic for QR generation  
 
-## 📥 Installation
-To use this project locally, follow these steps:
+## 🎯 Usage
+- Enter a text or URL in the input box.
+- Click the "Generate QR Code" button.
+- The QR code appears with a smooth animation.
+- Click "Back" to enter new text and generate a new QR code
 
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/yourusername/qr-code-generator.git
+## 📂 Project Structure
+qr-code-generator/
+│── index.html
+│── style.css
+│── favicon-32x32.png
+│── README.md
+
+## 💡 Contributing
+- Feel free to fork this repository and submit a pull request if you have improvements. 😊
+
+- ⭐ Star this repository if you found it useful!
+
+
+
+
