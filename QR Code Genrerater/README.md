@@ -9,6 +9,9 @@ A simple and stylish **QR Code Generator** built with **HTML, CSS, and JavaScrip
 - ⚡ **Real-time Validation** for empty input fields.
 - 📱 **Fully Responsive** design.
 
+## 🌐 Live Demo
+![{Preview}](https://github.com/user-attachments/assets/82302c8e-afd3-466d-8b46-8544d8832a41)
+
 ## 📸 Preview
 ![QR Code Generator](https://via.placeholder.com/600x300?text=QR+Code+Generator+Preview)
 
