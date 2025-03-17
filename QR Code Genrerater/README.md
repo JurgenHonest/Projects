@@ -28,11 +28,13 @@ A simple and stylish **QR Code Generator** built with **HTML, CSS, and JavaScrip
 - Click "Back" to enter new text and generate a new QR code
 
 ## 📂 Project Structure
+```
 qr-code-generator/
 │── index.html
 │── style.css
 │── favicon-32x32.png
 │── README.md
+```
 
 ## 💡 Contributing
 - Feel free to fork this repository and submit a pull request if you have improvements. 😊
