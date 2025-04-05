@@ -4,24 +4,25 @@ A **modern, sleek, and professional** To-Do List web application that allows use
 
 ## 🌟 Features
 
-✅ **Minimal & Clean UI** – Modern design with smooth animations  
-✅ **Responsive** – Works on all devices (desktop, tablet, mobile)  
-✅ **Persistent Storage** – Saves tasks using `localStorage`  
-✅ **Interactive Tasks** – Click to mark as complete or delete  
-✅ **Error Handling** – Prevents adding empty tasks  
-✅ **Smooth Transitions** – Hover effects & button animations  
+✨ **Minimal & Clean UI** – Modern design with smooth animations  
+📱 **Responsive** – Works on all devices (desktop, tablet, mobile)  
+💾 **Persistent Storage** – Saves tasks using `localStorage`  
+✔️ **Interactive Tasks** – Click to mark as complete or delete  
+⚠️ **Error Handling** – Prevents adding empty tasks  
+🎬 **Smooth Transitions** – Hover effects & button animations  
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **Try it now:** [Live Demo](https://to-do-list-b-v.netlify.app/)
+🔗 **Try it now:** [Click Here to Try the App ](https://to-do-list-b-v.netlify.app/)
 ---
 
 ## 🛠️ Technologies Used
-- HTML5 – Structure & Layout
-- CSS3 – Styling & Animations
-- JavaScript – Logic & localStorage
+Built using:
+- 🧱 HTML5 – Structure & semantic layout
+- 🎨 CSS3 – Styling, animations, and responsive design
+- ⚙️ JavaScript (ES6+) – Core logic, interactivity, and localStorage handlinge
 ---
 
 ## 📌 Project Structure
