@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+main {
+  width: 100%;
+  height: 150vh;
+  background-color: #1b1b32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+}
+header h1 {
+  color: #fff;
+  font-weight: 1200;
+  font-size: 30pt;
+}
+.container {
+  width: 64vh;
+  height: 120vh;
+  background-color: #f5f6f7;
+  border-radius: 20px;
+  margin-top: 3%;
+  box-shadow: 10px 10px #aeacb2;
+  padding: 10px 10px;
+}
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+.sinput {
+  padding: 10px 0;
+}
+.sinput input {
+  width: 200px;
+  height: 2.5rem;
+  padding: 0px 10px;
+  font-size: 12pt;
+  font-weight: 500;
+}
+.sinput button {
+  width: 80px;
+  height: 2.5rem;
+  border-radius: 20px;
+  background: #7f21ab;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.pokemon {
+  width: 98%;
+  height: 50vh;
+  background: #f0f1f7;
+  margin-left: 7px;
+}
+.pokemon .nameid {
+  display: flex;
+  padding: 10px 10px;
+  gap: 10px;
+}
+.pokemon .wh {
+  display: flex;
+  padding: 10px 10px;
+  gap: 10px;
+}
+#sprite {
+  height: 150px;
+  transform: translate(80%, 20%);
+}
+.pokemon #types {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 10rem;
+}
+.pokemon .type {
+  color: #000;
+  font-size: 12pt;
+  border-radius: 7px;
+  margin: 10px;
+  border: none;
+  /* background-color: #fecc33; */
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 1 rem;
+  color: #f5f6f7;
+  background-color: #7f21ab;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid #f5f6f7;
+}
+
+tr {
+  border-bottom: 5px solid #f5f6f7;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Pokemon Styling Color */
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #9e93f1;
+}
+
+.dark {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}

@@ -1,0 +1,76 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pokémon Search App</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <main>
+        <header>
+          <img
+            width="300px"
+            height="150px"
+            src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+          />
+          <h1>Pokémon Search App</h1>
+        </header>
+        <div class="container">
+          <section class="input">
+            <h4>Search for Pokémon Name or ID:</h4>
+            <article class="sinput">
+              <input type="text" id="search-input" required />
+              <button id="search-button">Search</button>
+            </article>
+          </section>
+          <section class="pokemon">
+            <div class="nameid">
+              <span id="pokemon-name"></span>
+              <span id="pokemon-id"></span>
+            </div>
+            <div class="wh">
+              <span id="weight"></span>
+              <span id="height"></span>
+            </div>
+            <div id="spriteC"></div>
+            <div id="types"></div>
+          </section>
+          <section class="bottom-container">
+            <table>
+              <tr>
+                <th>Base</th>
+                <th>Stats</th>
+              </tr>
+              <tr>
+                <td>HP:</td>
+                <td id="hp"></td>
+              </tr>
+              <tr>
+                <td>Attack:</td>
+                <td id="attack"></td>
+              </tr>
+              <tr>
+                <td>Defense:</td>
+                <td id="defense"></td>
+              </tr>
+              <tr>
+                <td>Sp. Attack:</td>
+                <td id="special-attack"></td>
+              </tr>
+              <tr>
+                <td>Sp. Defense:</td>
+                <td id="special-defense"></td>
+              </tr>
+              <tr>
+                <td>Speed:</td>
+                <td id="speed" class="speed"></td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </main>
+    </body>
+    <script src="script.js"></script>
+  </html>
+</DOCTYPE>
